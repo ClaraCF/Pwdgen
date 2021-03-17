@@ -23,7 +23,7 @@ parser.add_argument('-s', '--symbols', required=False, action='store_true', help
 parser.add_argument('-m', '--alnum', required=False, action='store_true', help=alphanum_help)
 parser.add_argument('-a', '--all', required=False, action='store_true', help=all_help)
 parser.add_argument('-S', '--strong', required=False, action='store_true', help=strong_help)
-parser.add_argument('length', default=6, type=int, metavar='password_length')
+parser.add_argument('length', nargs='?', default=8, type=int, metavar='password_length')
 
 args = parser.parse_args()
 argv = vars(args)
@@ -52,6 +52,10 @@ def randomSymbols():
 def main():
     global flagc
     global argv
+
+    # Quick access: create a strong password by default
+    if flagc == 0:
+        argv['all'] = True
 
     length = int(argv['length'])    # saving the legth to a variable
 
@@ -84,3 +88,4 @@ def main():
 
 if __name__ == '__main__':
     main()      # execute the main function
+    
