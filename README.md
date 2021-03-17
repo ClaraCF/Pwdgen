@@ -22,7 +22,7 @@ This program contains a shebang for Linux users which doesn't matter for Windows
   ```   
   Multiple [flags](#flags) can be specified specified to include different charset combinations for the password.   
   A password length may also be specified. If the password length is not specified, it'll default to 8.   
-  The same goes to the flags: if no flags are specified, it'll default to all, so just running the raw program without arguments would result in a strong, 8 characters long password that uses upper and lower chars, numbers and symbols, resulting in a quick-access strong password.
+  The same goes for the flags: if no flags are specified, it'll default to all, so just running the raw program without arguments would result in a strong, 8 characters long password that uses upper and lower chars, numbers and symbols, resulting in a quick-access strong password.
   
 <br>
 
