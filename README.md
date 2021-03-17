@@ -24,6 +24,7 @@ This program contains a shebang for Linux users which doesn't matter for Windows
   A password length may also be specified. If the password length is not specified, it'll default to 8.   
   The same goes to the flags: if no flags are specified, it'll default to all, so just running the raw program without arguments would result in a strong, 8 characters long password that uses upper and lower chars, numbers and symbols, resulting in a quick-access strong password.
   
+<br>
 
 ## Flags
 At least <b> one </b> of the following is required:   
