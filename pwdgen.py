@@ -49,10 +49,7 @@ def randomSymbols():
     return chr(random.randint(choice[0], choice[1]))    # return random symbol from set
 
 
-def main():
-    global flagc
-    global argv
-
+def main(flagc: int, argv: dict):
     # Quick access: create a strong password by default
     if flagc == 0:
         argv['all'] = True
@@ -81,10 +78,10 @@ def main():
     i = 0
     password = ''
     while i != length:
-        password += eval(f'random{random.choice(flags)}()')
+        password += globals()[f'random{random.choice(flags)}']()
         i += 1
 
     print(f'Password: {password}')
 
 if __name__ == '__main__':
-    main()      # execute the main function
+    main(flagc, argv)      # execute the main function
