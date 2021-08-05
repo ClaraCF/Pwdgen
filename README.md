@@ -1,9 +1,10 @@
 # Pwdgen
 Just a simple password generator written in python3.9.   
-This program lets you choose between different charsets which can be combined to create a password.   
-![MIT License](https://img.shields.io/github/license/ClaraCF/Pwdgen)
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ClaraCF/Pwdgen)
-![GitHub last commit](https://img.shields.io/github/last-commit/ClaraCF/Pwdgen)
+This program lets you choose between different charsets which can be combined to create a password.  
+  
+![MIT License](https://img.shields.io/github/license/ClaraCF/Pwdgen) 
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ClaraCF/Pwdgen) 
+![GitHub last commit](https://img.shields.io/github/last-commit/ClaraCF/Pwdgen) 
 
 <br>
 
