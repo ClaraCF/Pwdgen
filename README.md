@@ -40,3 +40,8 @@ At least <b> one </b> of the following is required:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-m, --alnum      uses alphanumerical characters for the password generation   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-a, --all        uses all available sets for the password   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-S, --strong     same as -a, --all. Just an alias   
+
+<br>
+
+## License
+This project is licensed under the [MIT](https://github.com/ClaraCF/Pwdgen/blob/main/LICENSE) License
